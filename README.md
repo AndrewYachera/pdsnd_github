@@ -12,7 +12,9 @@ lowing the user to explore US bikeshare data. The program filters data and calcu
 
 ### Files used
 chicago.csv
+
 new_york_city.csv
+
 washington.csv
 
 ### Credits
