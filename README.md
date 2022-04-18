@@ -16,3 +16,6 @@ chicago.csv
 new_york_city.csv
 
 washington.csv
+
+### Credits
+Udacity Programming For Data Science course
