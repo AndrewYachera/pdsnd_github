@@ -7,8 +7,7 @@ April 17, 2022
 Explore US Bikeshare Data
 
 ### Description
-Use python to create an interactive environment a
-lowing the user to explore US bikeshare data. The program filters data and calculates relevant statistics based on the user chosen city.
+Used python to create an interactive environment allowing the user to explore US bikeshare data. The program filters data and calculates relevant statistics based on the user chosen city.
 
 ### Files used
 chicago.csv
