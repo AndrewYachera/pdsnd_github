@@ -118,7 +118,7 @@ def time_stats(df):
     # display the most common start hour
     df['hour'] = df['Start Time'].dt.hour
     popular_hour = df['hour'].mode()[0]
-    print('The most popular hour of travel was: ', popular_hour)
+    print('The most popular hour of travel was: ' + str(popular_hour) + ':00' )
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -153,10 +153,10 @@ def trip_stats(df):
 
     # display total travel time
     total_travel_time = df['Trip Duration'].sum()
-    print('The total travel time was: ', total_travel_time, ' minutes')
+    print('The total travel time was: ', '{:,}'.format(total_travel_time), ' minutes')
     # display mean travel time
     mean_travel_time = df['Trip Duration'].mean()
-    print('The mean travel time was: ', mean_travel_time, ' minutes')
+    print('The mean travel time was: ', int(mean_travel_time), ' minutes')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
